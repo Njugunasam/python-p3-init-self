@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 class Dog:
-    def _init_(self, name):
+    def __init__(self, name, breed="Mutt"):
         self.name = name
-
-    def _init_(self,  breed="Mutt"):
         self.breed = breed
+
     pass
